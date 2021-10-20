@@ -54,4 +54,7 @@ The real value of testing occurs with system change
     - No armour, very vulnerable
     - Too much armour, cannot move
 
-###
+### ABC
+- Schema
+    - Best practice for data validation
+    - Collection of rules that specify the expected values for a set of fields
