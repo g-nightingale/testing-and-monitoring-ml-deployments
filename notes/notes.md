@@ -7,3 +7,10 @@
     - Data prediction and system monitoring
 
 ## Testing Concepts for ML Systems
+### Testing Scope
+- Development environment
+    - Unit, integration
+- Production environment
+    - 
+    
+    ![alt text](images\testing_phases.png "Title")
