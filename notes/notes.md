@@ -54,7 +54,32 @@ The real value of testing occurs with system change
     - No armour, very vulnerable
     - Too much armour, cannot move
 
-### ABC
+### Exercises
 - Schema
     - Best practice for data validation
     - Collection of rules that specify the expected values for a set of fields
+
+## Unit testing ML systems
+### Python code conventions
+- PEP8 -> style guide
+- Type hints -> PEP 484
+- Literal string interpolation -> PEP 498
+    - f strings
+- Forcing keyword arguments
+    - keyword must be passed along with value
+    - def my_function(*, foo):
+        pass 
+    - my_function(foo="bar")
+
+### Intro to Pytest
+- Defacto standard in industry
+- Modular fixtures is the killer feature
+    - Reusable test setups
+- conftest.py file
+    - Stores fixtures
+    - Made available to test modules
+- Parameterisation
+    - For testing multiple values
+    - Good for testing empty strings, None etc as well as valid values
+
+### Using Tox
