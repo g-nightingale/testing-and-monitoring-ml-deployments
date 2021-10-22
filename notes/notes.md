@@ -1,3 +1,6 @@
+### Repo location
+https://github.com/trainindata/testing-and-monitoring-ml-deployments
+
 ## ML System Lifecycle
 - Machine learning pipelines require machine learning centric tests at various levels
     - Traditional tests
