@@ -83,3 +83,6 @@ The real value of testing occurs with system change
     - Good for testing empty strings, None etc as well as valid values
 
 ### Using Tox
+- Creates isolated environments for running tests
+- Test against different versions of Python and OS
+- Solves problems with missing Python paths
