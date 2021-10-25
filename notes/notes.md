@@ -89,3 +89,13 @@ The real value of testing occurs with system change
 - Creates isolated environments for running tests
 - Test against different versions of Python and OS
 - Solves problems with missing Python paths
+
+### Preprocessing & feature engineering theory
+- All feature creation code must be tested
+- Bugs in features may be hard to detect once they reached the data generation process
+- Testing engineered data
+    - Unit testing calculations
+    - Check default values
+    - Test that data distributions conform to expectations after transformations
+    - Outliers are handled
+

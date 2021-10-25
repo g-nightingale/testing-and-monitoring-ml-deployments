@@ -132,3 +132,6 @@ packages/ml_api/differential_tests/actual_results/
 
 # virtual environment
 research_phase/ds
+
+# Ignore notes folder so I can add to it on ealrier commits
+notes/
